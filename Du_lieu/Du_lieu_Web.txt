@@ -1,0 +1,26 @@
+Project này sử dụng thingsboard chạy local ngay trên raspberry pi. Tại sao ko dùng 
+thingsboard cloud đơn giản là vì mỗi dư liệu gửi lên cloud sẽ bị tính phí nên
+tôi đã cài thingsboard trực tiếp lên pi để có thể lưu dữ liệu trực tiếp vào ổ 
+cứng hdd. Nó vừa miễn phí và chỗ trống lưu chữ cug nhiều và dữ liệu sẽ ko bao
+giờ bị mất
+Và dự án này tôi có cài thêm ngrok để đưa địa chỉ ra public
+Readme sẽ theo thứ tự này
+how_to_install_thingsboard.txt (Bạn hãy vào link này để xem cách cài thingsboard
+trên pi họ hướng dẫn rất chi tiết
+iot_-_máy_thi_công_-_demo.json (File dashboard để import)
+thống_kê.json (File dashboard 2 để import)
+Lenh_ngrok.png (Lệnh để public địa chỉ)
+2 hình dưới này nằm cùng hàng hình 1 bên trái hình 2 bên phải
+Ket_qua_ngrok1.png
+Ket_qua_ngrok2.png
+(Địa chỉ dc tô đậm là đường link để có thể truy cập ở bất cứ đâu miễn là có Internet)
+login_thingsboard.png (Màn hình đăng nhập của khách hàng ng sẽ sử dụng project này 
+để quản lý đội máy
+3 hình dưới đây là 3 hình dashboard
+dashboard1.png
+dashboard2.png
+dashboard3.png
+Hình 1 và hình 2 để xem vị trí của máy, số máy hoạt động, nhiệt độ, tg hoạt
+động, % pin của hộp iot gắn trên máy
+Hình 3: 2 chart bên trái để đưa ra nhiệt độ, tg hoạt động của máy. Bản đồ bên phải là
+để xem quãng đường(nhg nới máy đi) trong 1 tuần hoặc 2 tuần, v...v.. 
