@@ -117,13 +117,11 @@ The schematic uses the **"Create Sheet Symbol from Sheet"** feature (hierarchica
 
 ### PCB
 
-**Front side**
+> Note: This is a demo version. The schematic is still being revised, so the PCB has not been routed yet — components are only roughly placed.
 
-![PCB Front](PCB/PCB/3d_view_1.PNG)
-
-**Back side**
-
-![PCB Back](PCB/PCB/3d_view_2.PNG)
+| Front side | Back side |
+|:---:|:---:|
+| ![PCB Front](PCB/PCB/3d_view_1.PNG) | ![PCB Back](PCB/PCB/3d_view_2.PNG) |
 
 ### Reverse Engineering the SIM and BMS Modules
 
